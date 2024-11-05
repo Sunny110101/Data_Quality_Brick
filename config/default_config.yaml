@@ -1,0 +1,15 @@
+﻿null_checks:
+  threshold: 0.3
+  exclude_columns: []
+
+range_checks:
+  age: [0, 120]
+  salary: [0, 1000000]
+
+format_checks:
+  email: "^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+  date: "^\d{4}-\d{2}-\d{2}$"
+
+output:
+  clean_data_dir: "data/output"
+  reports_dir: "data/reports"

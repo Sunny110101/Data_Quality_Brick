@@ -1,0 +1,36 @@
+﻿__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+
+# Data files
+data/input/*
+data/output/*
+data/reports/*
+!data/input/.gitkeep
+!data/output/.gitkeep
+!data/reports/.gitkeep
+
+# IDE files
+.idea/
+.vscode/
